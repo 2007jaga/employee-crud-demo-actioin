@@ -29,3 +29,22 @@ jobs:
 
       - name: Run Tests
         run: dotnet test --no-build --verbosity normal
+
+
+
+
+/* What is runs-on: ubuntu-latest?
+
+GitHub creates a temporary Linux VM
+Runs your code
+Deletes it after finish   
+
+What is uses:?
+
+It uses pre-built GitHub marketplace actions.
+
+Example:
+
+checkout action
+
+setup-dotnet action    */  
